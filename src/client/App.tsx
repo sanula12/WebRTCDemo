@@ -1,6 +1,6 @@
 import { Button } from "@heroui/react";
 import "./App.css";
-import NavigationBar from "./components/Navbar";
+import NavigationBar from "../components/Navbar";
 import { Mic, Voicemail } from "lucide-react";
 import { useEffect, useRef } from "react";
 import io from 'socket.io-client';
